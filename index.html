@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Editor</title>
+</head>
+
+<body>
+    <section class="wrapper">
+
+        <div class="wrapper-child" id="main">
+            <textarea spellcheck="false" class="input" id="html" placeholder="HTML"></textarea>
+            <textarea spellcheck="false" class="input" id="css" placeholder="CSS"></textarea>
+            <textarea spellcheck="false" class="input" id="javascript" placeholder="JAVASCRIPT"></textarea>
+        </div>
+
+        <div class="wrapper-child" id="drawer">
+            <div class="drawer-items" id="live">🚀 Go Live</div>
+        </div>
+
+        <div id="dom-output">
+            <iframe id="frame">I am frame</iframe>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
