@@ -52,7 +52,7 @@
 }
 
 #main textarea {
-  padding: 5px;
+  padding: 10px;
   padding-left: 20px;
   outline: none;
 }
@@ -62,6 +62,39 @@
   resize: none;
   background-color: black;
   color: whitesmoke;
+  font-weight: 600;
+  font-family: "Fira Code", monospace;
+  letter-spacing: 0.5px;
+}
+
+#html::placeholder {
+  color: white;
+  background-color: #e34f26;
+  padding: 2px 3px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 3px;
+  width: min-content;
+}
+
+#css::placeholder {
+  color: white;
+  background-color: #264de4;
+  padding: 2px 3px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 3px;
+  width: min-content;
+}
+
+#javascript::placeholder {
+  color: black;
+  background-color: #f7df1e;
+  padding: 2px 3px;
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 3px;
+  width: min-content;
 }
 
 #dom-output {
